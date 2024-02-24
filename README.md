@@ -10,6 +10,7 @@ Setting up cross compilation
 ----------------------------
 ### Linux
 
+    git clone https://github.com/ClausNC3/MTK-fernly.git
     git clone https://github.com/robertfoss/setup_codesourcery.git
     sudo setup_codesourcery/setup.sh
     /usr/local/bin/codesourcery-arm-2014.05.sh
@@ -23,7 +24,10 @@ the prefix of your cross compiler.  This is very similar to how to compile for L
 
 For example:
 
+    cd MTK-fernly
     make CROSS_COMPILE=arm-none-eabi-
+    exit
+    cp 95-fernvale-simple.rules /etc/udev/rules.d/.
 
 
 Running on MT6261 devices
