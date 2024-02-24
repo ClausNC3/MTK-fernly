@@ -10,6 +10,8 @@ Setting up cross compilation
 ----------------------------
 ### Linux
 
+    sudo apt update
+    sudu apt upgrade
     sudo apt install git make gcc gcc-arm-none-eabi
     git clone https://github.com/ClausNC3/MTK-fernly.git
 
