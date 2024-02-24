@@ -10,11 +10,8 @@ Setting up cross compilation
 ----------------------------
 ### Linux
 
+    sudo apt install git make gcc gcc-arm-none-eabi
     git clone https://github.com/ClausNC3/MTK-fernly.git
-    git clone https://github.com/robertfoss/setup_codesourcery.git
-    sudo setup_codesourcery/setup.sh
-    /usr/local/bin/codesourcery-arm-2014.05.sh
-    exit
 
 
 Building Fernly
