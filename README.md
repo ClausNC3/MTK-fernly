@@ -14,6 +14,7 @@ Setting up cross compilation
     git clone https://github.com/robertfoss/setup_codesourcery.git
     sudo setup_codesourcery/setup.sh
     /usr/local/bin/codesourcery-arm-2014.05.sh
+    exit
 
 
 Building Fernly
@@ -27,7 +28,6 @@ For example:
     cd MTK-fernly
     git checkout main
     make CROSS_COMPILE=arm-none-eabi-
-    exit
     sudo cp 95-fernvale-simple.rules /etc/udev/rules.d/.
 
 
