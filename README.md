@@ -47,7 +47,7 @@ buffer memory and program variables.
 
 To capture the contents of device ROM, run the command:
 
-    build/fernly-usb-loader /dev/fernvale build/dump-rom-usb.bin
+    build/fernly-usb-loader -w /dev/fernvale build/dump-rom-usb.bin
 
 Capture the output to a text file, edit out the diagnostic lines from
 fernly-usb-loader, prepend the one line:
