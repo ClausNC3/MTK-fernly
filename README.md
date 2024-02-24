@@ -25,6 +25,7 @@ the prefix of your cross compiler.  This is very similar to how to compile for L
 For example:
 
     cd MTK-fernly
+    git checkout main
     make CROSS_COMPILE=arm-none-eabi-
     exit
     cp 95-fernvale-simple.rules /etc/udev/rules.d/.
