@@ -28,7 +28,7 @@ For example:
     git checkout main
     make CROSS_COMPILE=arm-none-eabi-
     exit
-    cp 95-fernvale-simple.rules /etc/udev/rules.d/.
+    sudo cp 95-fernvale-simple.rules /etc/udev/rules.d/.
 
 
 Running on MT6261 devices
