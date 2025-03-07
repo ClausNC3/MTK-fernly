@@ -254,3 +254,177 @@ About the difference of -A and -D
 * The MT6260D does not support external serial flash
 * The MT6260A does support external serial flash
 
+Various cores/dies that might be in a MTK6260
+---------------------------------------------
+
+|Chip 	|Capability| 	Relevance for 6260| 	Notes|
+|-------|----------|----------------------|----------|
+|MT1308 	|CD/DVD-ROM platform|||
+|MT1309 	|CD/DVD-ROM platform|||
+|MT1805 	|Internal slimline DVD-RW platform|||
+|MT1807 	|External DVD-RW platform|||
+|MT1879 	|SATA DVD-RW platform|||
+|MT1939 	|Rewritable Blu-ray drive platform|||
+|MT2501 	|SoC used for smartwatches, 108Mhz|||
+|MT2502 	|ARM7EJ SOC, GSM/GPRS (2G), BT4.0, FM-Radio, Camera, USB1.1, SD 	|this chip is labled MT2502, but it reports itself as being a MT6261, so either they are very similar or identical, core of LinkIt||
+|MT2503 	|? , GPS 	|It is using MT6261, but it also has GPS||
+|MT2601 	|SoC for wearable, compatible with 6630|||
+|MT3318 	|GPS|||
+|MT3326 	|GPS|||
+|MT3328 	|GPS|||
+|MT3329 	|GPS|||
+|MT3332 	|GPS+GLONASS+Beidou 	|part of LinkIt||
+|MT3333 	|GPS+Beidou|||
+|MT3336 	|GPS+QZSS+SBA|||
+|MT3337 	|GPS|||
+|MT3339 	|GPS, QZSS, SBAS|||
+|MT5112 	|Digital terrestrial and cable TV demodulator|||
+|MT5135 	|Digital terrestrial and cable TV demodulator for Europe|||
+|MT5175 	|Digital terrestrial and cable TV demodulator for China|||
+|MT5131 	|OFDM-Demod IC|||
+|MT5192 	|MATV|||
+|MT5193 	|MATV|||
+|MT5301 	|Low cost China ATV|||
+|MT5366 	|60Hz cost efficiency TV|||
+|MT5389 	|60Hz Basic 3D/connected DTV|||
+|MT5395 	|120Hz iPTV & 3D TV|||
+|MT5396 	|120Hz Smart & Advanced 3D TV|||
+|MT5398 	|Smart 3D TV platform|||
+|MT5505 	|Smart 3D TV platform|||
+|MT5580 	|Connected 3D TV platform|||
+|MT5901 	|WLAN, based on Inprocomm|||
+|MT5911 	|WLAN, based on Inprocomm|||
+|MT5912 	|WLAN, based on Inprocomm|||
+|MT5921 	|WLAN chip 	|unfortunately not part of 6260||
+|MT5931 	|802.11n platform (2.4GHz) 	|part of LinkIt||
+|MT6100 	|Analog die which is part of MT6260 and MT6250|||
+|MT6129 	|RF Transceiver|||
+|MT6139 	|RF Transceiver for GSM/DCS/PCS|||
+|MT6140 	|RF chip that is used in phones together with the MT6235 	|possibly merged into 6260||
+|MT6162 	|RF Transceiver (Othello)|||
+|MT6163 	|RF Transceiver (Othello)|||
+|MT6169 	|RF Transceiver LWG+LTG|||
+|MT6188C 	|FM Radio chip that is used in phones together with MT6235 	|possibly merged into 6260||
+|MT6205 	|GSM Baseband Processor|||
+|MT6217 	|GSM/GPRS Baseband Processor|||
+|MT6218 	|GSM/GPRS Baseband Processor|||
+|MT6219 	|GSM/GPRS Baseband Processor 	|seems to be a predecessor of 6260 	|read the datasheet!|
+|MT6223 	|GSM/GPRS Baseband Processor 	|seems to be a predecessor of 6260 	|read the datasheet!|
+|MT6225 	|GSM/GPRS Baseband Processor|||
+|MT6226 	|GSM/GPRS Baseband Processor|||
+|MT6227 	|GSM/GPRS Baseband Processor|||
+|MT6228 	|GSM/GPRS Baseband Processor 	|seems to be a predecessor of 6260 	|read the datasheet!|
+|MT6235 	|GSM/GPRS/EDGE SoC for FeaturePhones, ARM9 Up to 208 MHz|||
+|MT6236 	|GSM/GPRS/EDGE platform for FeaturePhones|||
+|MT6238 	|GSM/GPRS/EDGE platform for FeaturePhones|||
+|MT6239 	|GSM/GPRS/EDGE platform for FeaturePhones|||
+|MT6250 	|GSM/GPRS/EDGE-RX for FeaturePhones 	|requires 6139(RF) and 6138(Power), which are possibly included in 6260||
+|MT6251 	|SoC with FM-Radio 	|||
+|MT6252 	|Quad-band GSM/GPRS/EDGE platform for FeaturePhones|||
+|MT6253 	|GSM/GPRS platform|||
+|MT6255 	|Quad-band GSM/GPRS/EDGE platform|||
+|MT6256 	|SoC for FeaturePhone|||
+|MT6260 	|SoC with an ARM core, Bluetooth, LCD, GSM+GPRS, Camera, FM-Radio, ... 	|definitely used||
+|MT6261 	|SoC with an ARM core, Bluetooth, LCD, GSM+GPRS, Camera, FM-Radio, ... 	|possible upgrade for fernvale?||
+|MT6268 	|GSM/GPRS/EDGE/W-CDMA platform|||
+|MT6275 	|ARMv7 SoC, GPS, BT4.0 	|||
+|MT6276 	|SoC BT+FM-Radio|||
+|MT6276M 	|HSPA modem|||
+|MT6280 	|3G/HSPA+ thin modem|||
+|MT6290 	|Modem processor LTE R9 (4G), DC-HSPA+, W-CDMA, TD-SCDMA, EDGE and GSM/GPRS|||
+|MT6301 	|Touchscreen controller|||
+|MT6305B 	|GSM Power Management System|||
+|MT6306 	|SIM-Card multiplexer, allows to switch between 4 simcards|||
+|MT6318 	|PMIC - Power management IC|||
+|MT6320 	|PMIC - Power management IC|||
+|MT6322 	|PMIC - Power management IC|||
+|MT6323 	|PMIC - Power management for phones 	|possibly merged into 6260, was also reused in MT6572||
+|MT6326 	|PMIC|||
+|MT6329 	|PMIC - Power management 	|possibly merged into 6260 	|might explain the POWERKEY handling|
+|MT6331 	|PMIC - Power management|||
+|MT6332 	|PMIC - Power management|||
+|MT6333 	|PMIC - Power management|||
+|MT6513 	|SoC - Android|||
+|MT6515 	|SoC - Android|||
+|MT6516 	|SoC - GSM/GPRS/EDGE platform|||
+|MT6517 	|SoC - 1GHz, Single core, GPS|||
+|MT6571 	|SoC - Entrylevel|||
+|MT6572 	|SoC - Dual-core platform with HSPA+|||
+|MT6573 	|SoC - used in Alcatel 918D|||
+|MT6575 	|SoC for Android, similar to MT6573, compatible to MT6162|||
+|MT6577 	|SoC - 1GHz for Android|||
+|MT6582 	|SoC - ARM-A7 Quadcore, WLAN, Bluetooth, GPS, HSPA+|||
+|MT6588 	|SoC - Quadcore, pin-compatible to 6582+6591+6592|||
+|MT6589 	|SoC - ARM-A7 Quadcore, WLAN, Bluetooth 4.0, GPS, UMTS8|||
+|MT6591 	|SoC - ARM Hexacore, 1.5 GHz|||
+|MT6592 	|SoC - Octacore, HSPA+|||
+|MT6595 	|SoC - Octacore, LTE|||
+|MT6601 	|Bluetooth, was used together with MT6235 	|possibly merged into 6260||
+|MT6605 	|NFC|||
+|MT6612 	|Bluetooth 2.1+EDR|||
+|MT6620 	|Bluetooth, GPS, 802.11n (2.4/5GHz), GNSS, Bluetooth and FM platform|||
+|MT6622 	|Bluetooth 2.1+EDR|||
+|MT6626 	|Bluetooth 2.1+EDR with FM|||
+|MT6627 	|GPS, compatible with MAX2659|||
+|MT6628 	|GPS|||
+|MT6628Q 	|802.11n (2.4/5GHz), GNSS, Bluetooth and FM platform|||
+|MT6628T 	|802.11n (2.4/5GHz), Bluetooth and FM platform|||
+|MT6630 	|GPS 	|2014||
+|MT6921 	|Variant of MT6236|||
+|MT6922 	|Variant of MT6255|||
+|MT6732 	|64-bit quad-core LTE platform|||
+|MT6735 	|64-bit quad-core World Mode LTE platform|||
+|MT6752 	|64-bit octa-core LTE platform|||
+|MT6753 	|64-bit octa-core LTE platform|||
+|MT6755 	|64-bit octa-core LTE platform 	|Smartphone Oppo F1 Plus||
+|MT6795 	|64bit LTE Octa-core platform|||
+|MT6797W 	|64bit LTE Octa-core platform (Helio X10 ?)|||
+|MT6856 	|802.11ac/802.11n network processor for access points and routers|||
+|MT6921 	|SoC|||
+|MT7502 	|ADSL AFE+Modem+Ethernet|||
+|MT7505 	|MIPS SoC ADSL AFE+Modem+Ethernet|||
+|MT7510 	|MIPS SoC DSL|||
+|MT7511 	|MIPS SoC DSL|||
+|MT7530 	|Gigabit Ethernet Switch|||
+|MT7550 	|xDSL analog front end (AFE)|||
+|MT7555 	|Line Driver (LD) for VDSL2/ADSL2+|||
+|MT7592 	|Wifi|||
+|MT7600 	|Wifi|||
+|MT7601 	|Wifi chip, based on Realtek|||
+|MT7602 	|Wifi chip|||
+|MT7603 	|Wifi|||
+|MT7606 	|Wifi|||
+|MT7610 	|Wifi chip, based on Realtek|||
+|MT7612 	|Wifi chip, based on Realtek|||
+|MT7615 	|ARM SoC with Wifi|||
+|MT7620 	|MIPS SoC, Wifi bgn, PCIe, SDHC, USB|||
+|MT7621 	|MIPS SoC, GbE, RGMII, PCIe, USB3|||
+|MT7623 	|ARM Quadcore SoC|||
+|MT7628 	|MIPS SoC|||
+|MT7630 	|Bluetooth based on RT3290|||
+|MT7632 	|Wifi+Bluetooth|||
+|MT7636 	|Wifi+Bluetooth|||
+|MT7650 	|802.11a/ac 1T1R platform (2.4/5GHz) with Bluetooth 4.0|||
+|MT7662 	|Wifi abgn+ac + Bluetooth4|||
+|MT7681 	|WiFi b/g/n SoC with GPIO, PWM, UART|||
+|MT7688 	|MIPS SoC with WiFi|||
+|MT8123 	|Tablet dual-core platform|||
+|MT8125 	|Tablet Quad-core platform with HSPA+|||
+|MT8127 	|Quad-core platform with HEVC video playback|||
+|MT8135 	|Quad-core platform with ARM big.LITTLE architecture|||
+|MT8303 	|DVB related chip, comes in TQFP 256|||
+|MT8307 	|Cost-effective soundbar platform|||
+|MT8317 	|ARM SoC|||
+|MT8377 	|Dual-core platform with HSPA|||
+|MT8382 	|Quad-core dual-SIM HSPA platform|||
+|MT8389 	|Tablet Quad-core platform with HSPA+|||
+|MT8392 	|Octa-core HSPA+ tablet platform|||
+|MT8502 	|Soundbar platform 	|this could be included in 6260||
+|MT8506 	|Premium Connected Audio platform|||
+|MT8507 	|Connected audio platform|||
+|MT8732 	|64-bit octa-core LTE tablet platform|||
+|MT8752 	|64-bit octa-core LTE tablet platform|||
+|RT3883 	|802.11n WLAN from Realtek|||
+|RT6856 	|802.11ac WLAN from Realtek|||
+|RT9362 	|LCM backlight driver, was used in phones together with the MT6235 	|was possibly merged into 6260||
+|W25Q32 	|Winbond Flash, 4MB 	|part of MT6260DA||
