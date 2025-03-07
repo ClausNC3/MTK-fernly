@@ -249,7 +249,8 @@ Memory Map
 
 About the difference of -A and -D
 ---------------------------------
-    The MT2502A offers the full MT2502 feature set supported by built-in 32Mb RAM and external Flash for ROM memory.
-    The MT2502D excludes support for GSM/GPRS (doesn’t contain a 2G Modem) supported by built-in 32Mb RAM and 32Mb ROM.
-    The MT6260D does not support external serial flash
-    The MT6260A does support external serial flash
+* The MT2502A offers the full MT2502 feature set supported by built-in 32Mb RAM and external Flash for ROM memory.
+* The MT2502D excludes support for GSM/GPRS (doesn’t contain a 2G Modem) supported by built-in 32Mb RAM and 32Mb ROM.
+* The MT6260D does not support external serial flash
+* The MT6260A does support external serial flash
+
