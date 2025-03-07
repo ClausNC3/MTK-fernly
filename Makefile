@@ -82,8 +82,10 @@ all: $(BUILD)/firmware.bin \
 	$(BUILD)/usb-loader.bin \
         $(BUILD)/dump-rom-usb-6250.bin \
         $(BUILD)/dump-rom-usb-6260.bin \
+        $(BUILD)/dump-rom-usb-6261.bin \
         $(BUILD)/dump-flash-usb-6250.bin \
         $(BUILD)/dump-flash-usb-6260.bin \
+        $(BUILD)/dump-flash-usb-6261.bin \
 	$(BUILD)/mt6261-test.bin \
 	$(BUILD)/fernly-usb-loader \
 	$(BUILD)/echo.bin \
